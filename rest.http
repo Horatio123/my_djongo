@@ -1,0 +1,26 @@
+###
+
+POST http://127.0.0.1:8627/api/diff/getCommitList
+Content-Type: "application/json"
+
+{
+    "aa": "cc"
+}
+
+
+###
+
+POST http://127.0.0.1:8627/api/diff/getDiffList
+Content-Type: "application/json"
+
+{
+    "aa": "cc"
+}
+
+###
+POST http://127.0.0.1:8627/getList
+Content-Type: "application/json"
+
+{
+    "aa": "cc"
+}
